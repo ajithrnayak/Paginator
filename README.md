@@ -11,7 +11,7 @@ example:
 ```objective-c
 - (void)fetchResultsWithPageSize:(NSInteger)pageSize
                             page:(NSInteger)page
-                      completion:(void (^)(NSArray *, NSError *))completion {
+                      completion:(void (^)(NSArray *, NSError *))onComplete {
   // 1. configure query for page and page size here..
 
   // 2. make async request for query results.
