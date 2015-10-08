@@ -47,7 +47,7 @@
   _total = 0;
   _requestStatus = AJRequestStatusTypeNone;
   _lastPage = NO;
-  _results = nil;
+  _results = [NSMutableArray alloc] initWithCapacity:_pageSize];
 }
 
 #pragma mark - Public
